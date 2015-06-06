@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Embedded Wrapper</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="/" />
+    <!-- No meta-tag needed. See:
+         http://stackoverflow.com/questions/26577269/ember-cli-meta-config-environment-file -->
+
+    <link rel="stylesheet" href="http://localhost:4200/assets/vendor.css">
+    <link rel="stylesheet" href="http://localhost:4200/assets/-sample-app.css">
+    
+  </head>
+<body>
+
+<h1>Static External Site</h1>
+<div style="border: 5px solid red; min-height: 200px; min-width: 200px">
+  <div id="ember-wrapper" data-arg-one="bar"></div>
+</div>
+
+<script src="http://localhost:4200/assets/vendor.js"></script>
+<script src="http://localhost:4200/assets/-sample-app.js"></script>
+
+</body>
+</html>
